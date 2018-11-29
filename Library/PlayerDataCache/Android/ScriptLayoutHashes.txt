@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Code/basfH/APK/server.apk
+C:/Code/basfH/APK/point.apk
 SceneListBegin?
 Assets/BASF/Scenes/BASFAppStore.unity
 SceneListEnd?
@@ -231,6 +231,7 @@ ed00450ba813958230243ea664b05654 Assembly-CSharp.dll:.OVRLipSyncContext
 3f221448c36e8fb02d1c702feef5c1de Oculus.VR.dll:.OVRWaitCursor
 9d3463663287e5395f010655ef8f2d11 Assembly-CSharp.dll:.OvrAvatar
 eb463f8a93f813ec95c5ccb91c3239dc Assembly-CSharp.dll:.OvrAvatarRemoteDriver
+df076cd5141131dbc4e45dd4977206bb Assembly-CSharp.dll:.ServerScript
 e53cc67d84060d628c7f03fc725766d8 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 392c5b921098bd4c139d9146d0efa6d7 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 7ebf5a98eca5f71ce192a7112acd6bee Oculus.VR.dll:.OVRChromaticAberration
@@ -264,6 +265,7 @@ d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+fba7ddcbd78fb5dc2e61dc913055bb83 Assembly-CSharp.dll:.BASFRay
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp-firstpass.dll:.ForcedReset
 989917e37ada2039978473ea5fc49e70 Oculus.VR.dll:UnityEngine.EventSystems.OVRPhysicsRaycaster
@@ -294,5 +296,3 @@ b79694badbb665cd9cfb3b42cfb66b5e Assembly-CSharp.dll:.OVRSliderLabelUpdater
 5c9188987953ad4ff3425056b5a82b30 Assembly-CSharp.dll:.OVRLipSyncContextTextureFlip
 e1ea77fe131932b6403e53cebcf4dc5f Assembly-CSharp.dll:.OVRVoiceModContext
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
-fba7ddcbd78fb5dc2e61dc913055bb83 Assembly-CSharp.dll:.BASFRay
-df076cd5141131dbc4e45dd4977206bb Assembly-CSharp.dll:.ServerScript

@@ -386,7 +386,6 @@ GameObject:
   - component: {fileID: 406130832}
   - component: {fileID: 406130831}
   - component: {fileID: 406130830}
-  - component: {fileID: 406130833}
   m_Layer: 0
   m_Name: Ray
   m_TagString: Untagged
@@ -401,8 +400,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 406130828}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 1.33}
-  m_LocalScale: {x: 0.006, y: 1.3100004, z: 0.006000004}
+  m_LocalPosition: {x: 0, y: 0, z: 2.1}
+  m_LocalScale: {x: 0.006, y: 2.1, z: 0.006000004}
   m_Children: []
   m_Father: {fileID: 494181819}
   m_RootOrder: 0
@@ -415,7 +414,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 406130828}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
@@ -462,18 +461,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 406130828}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &406130833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 406130828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3eb418cb928ed2a4aa5f09bc2abf2bc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Curser: {fileID: 1917260180}
 --- !u!1 &432959205
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,6 +485,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 494181819}
+  - component: {fileID: 494181820}
   m_Layer: 0
   m_Name: RightControllerAnchor
   m_TagString: Untagged
@@ -520,6 +508,18 @@ Transform:
   m_Father: {fileID: 1594308569}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &494181820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 494181818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb418cb928ed2a4aa5f09bc2abf2bc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Curser: {fileID: 1917260180}
 --- !u!1 &524936393
 GameObject:
   m_ObjectHideFlags: 0

@@ -61,15 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BASF\Scripts\BASFRay.cs" />
     <Compile Include="Assets\BASF\Scripts\Carousel.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\CanvasMapping.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\CylinderMapping.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\MappedGraphicMaterialModifier.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\MappedGraphicRaycaster.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\SideToSide.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\SinWaveMapping.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\Spin.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\TessellationVertexEffect.cs" />
+    <Compile Include="Assets\BASF\Scripts\ServerScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager_Sound.cs" />
@@ -282,8 +276,8 @@
     <Compile Include="Assets\OVRInspector\Scripts\OVRWarningList.cs" />
     <Compile Include="Assets\OVRInspector\Scripts\UIUtils\OVRGazeEventTrigger.cs" />
     <Compile Include="Assets\OVRInspector\Scripts\UIUtils\OVRGazeScroller.cs" />
+    <Compile Include="Assets\ray.cs" />
     <None Include="Assets\OVRHarness\LICENSE.txt" />
-    <None Include="Assets\CurvedUI\Shaders\UI-SinWaveFont.shader" />
     <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\OVRInspector\Resources\Quit.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
@@ -297,9 +291,7 @@
     <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarSurfaceShader.shader" />
     <None Include="Assets\OVRInspector\Shaders\UI-OptionalZTestFont.shader" />
     <None Include="Assets\OVRInspector\LICENSE.txt" />
-    <None Include="Assets\CurvedUI\Shaders\UI-Cylinder.shader" />
     <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
-    <None Include="Assets\CurvedUI\Shaders\CylinderMapping.cginc" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBS.shader" />
     <None Include="Assets\Oculus\Avatar\Samples\SocialStarter\README.txt" />
@@ -308,9 +300,6 @@
     <None Include="Assets\OVRInspector\Resources\UISettings.txt" />
     <None Include="Assets\LICENSE.txt" />
     <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarSurfaceShaderPBS.shader" />
-    <None Include="Assets\CurvedUI\Shaders\UI-SinWave.shader" />
-    <None Include="Assets\CurvedUI\Shaders\SinWaveMapping.cginc" />
-    <None Include="Assets\CurvedUI\Shaders\UI-CylinderFont.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBSV2.shader" />
     <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_SingleComponent.shader" />
