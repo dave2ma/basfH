@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Code/basfH/APK/point.apk
+C:/Code/basfH/APK/prototype.apk
 SceneListBegin?
 Assets/BASF/Scenes/BASFAppStore.unity
 SceneListEnd?
@@ -265,7 +265,7 @@ d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-fba7ddcbd78fb5dc2e61dc913055bb83 Assembly-CSharp.dll:.BASFRay
+32b7dc8c594e45afb90dfd06ed8b5d3e Assembly-CSharp.dll:.BASFRay
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp-firstpass.dll:.ForcedReset
 989917e37ada2039978473ea5fc49e70 Oculus.VR.dll:UnityEngine.EventSystems.OVRPhysicsRaycaster

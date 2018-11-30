@@ -18,10 +18,7 @@ public class Carousel : MonoBehaviour
         prefabs = Resources.LoadAll("Prefabs/Tiles", typeof(GameObject));
         if (prefabs == null || prefabs.Length == 0) { Debug.Log("Tiles could not be loaded"); };
         BuildElements();
-        gameObject.transform.Translate(new Vector3(0, 2, 0));
-
-
-
+        gameObject.transform.Translate(new Vector3(0, 3, 0));
     }
 
 

@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 64685287100922942}
   m_Layer: 14
   m_Name: default
-  m_TagString: Untagged
+  m_TagString: appCard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 4361790839501414}
   m_Layer: 0
   m_Name: Tile FE
-  m_TagString: Untagged
+  m_TagString: appCard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4229224907203926}
   m_Layer: 0
   m_Name: Tile Vision 2
-  m_TagString: Untagged
+  m_TagString: appCard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 64421313558612870}
   m_Layer: 14
   m_Name: default
-  m_TagString: Untagged
+  m_TagString: appCard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
